@@ -11,11 +11,11 @@ public class WordOccursAsPrefixDec2 {
         System.out.println("Word starting with prefix %s doesn't exist!".formatted(prefix));
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String words = sc.nextLine();
-        String prefix = sc.nextLine();
-        String []arr = words.split(" ");
-        Solution(arr, prefix);
-        sc.close();
+        try (Scanner sc = new Scanner(System.in)) {
+            String words = sc.nextLine();
+            String prefix = sc.nextLine();
+            String []arr = words.split(" ");
+            Solution(arr, prefix);
+        }
     }
 }

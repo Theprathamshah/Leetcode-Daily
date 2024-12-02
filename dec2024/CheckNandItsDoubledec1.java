@@ -13,16 +13,17 @@ public class CheckNandItsDoubledec1{
         return false;
     }
     public static void main(String[]args) {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int []arr = new int[n];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = sc.nextInt();
-        }
-        if(checkNAndItsDoubleSolver(arr)) {
-            System.out.println("Number and it's double exist");
-        }else {
-            System.out.println("Number and it's double doesn't exist");
+        try (Scanner sc = new Scanner(System.in)) {
+            int n = sc.nextInt();
+            int []arr = new int[n];
+            for (int i = 0; i < arr.length; i++) {
+                arr[i] = sc.nextInt();
+            }
+            if(checkNAndItsDoubleSolver(arr)) {
+                System.out.println("Number and it's double exist");
+            }else {
+                System.out.println("Number and it's double doesn't exist");
+            }
         }
     }
 }
