@@ -21,6 +21,7 @@ def CountVowelStringsinRangesSolution(words, queries):
     return result
 
 n = int(input())
+m = int(input())
 words = []
 
 for i in range(n):
@@ -28,10 +29,24 @@ for i in range(n):
 
 queries = []
 
-for i in range(n):
+for i in range(m):
     queries.append(list(map(int, input().split())))
     
 print(CountVowelStringsinRangesSolution(words, queries))
 
 
 # Time: O(n)
+
+'''.DS_Store
+5
+3
+aba
+bcb
+ece
+aa
+e
+0 2
+1 4
+1 1
+
+'''
