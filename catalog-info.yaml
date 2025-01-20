@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: leetcode-daily
+  description: This repository was created by Pratham Shah, to keep track of leetcode daily problems.
+spec:
+  type: service
+  owner: Pratham Shah
+  lifecycle: production
