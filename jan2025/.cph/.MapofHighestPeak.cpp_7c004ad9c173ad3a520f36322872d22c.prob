@@ -1,0 +1,1 @@
+{"name":"Local: MapofHighestPeak","url":"/Users/prathamshah/Desktop/Learn/DSA/leetcode-daily/jan2025/MapofHighestPeak.cpp","tests":[{"id":1737529529968,"input":"2\n2\n0 1\n0 0","output":"1 0\n1 1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/prathamshah/Desktop/Learn/DSA/leetcode-daily/jan2025/MapofHighestPeak.cpp","group":"local","local":true}
